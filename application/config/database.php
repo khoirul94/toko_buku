@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'localhost', //nama host
+	'username' => 'root', //username
+	'password' => '', //jika menggunakan password isi, jika tidak kosongkan saja
+	'database' => 'toko_buku', //nama databasenya
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
